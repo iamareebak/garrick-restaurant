@@ -1,0 +1,92 @@
+.app__chef-chefword{
+    /* margin: 1rem 4rem; */
+    margin: 1rem 4rem;
+
+    /* max-width: 570px;
+    flex-direction: flex-start; */
+}
+.app__chef-content{
+    display: flex;
+    margin-top: 3rem;
+}
+
+.app__chef-chefword{
+    margin-top: 2rem;
+}
+
+.app__chef-signature{
+    margin-top: 3rem;
+}
+
+
+
+/* .app__chef-content p{
+    margin-top: 0.75rem;
+} */
+
+.app__chef-signature p:first-child {
+    font-family: var(--font-base);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41.6px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: var(--color-golden);
+
+}
+
+.app__chef-signature p:last-child {
+    color: var(--color-grey);
+    font-size: 34px;
+    font-family: var(--font-base);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41.6px;
+    letter-spacing: 0.04em;
+
+}
+
+.p__quotation{
+    font-family: var(--font-alt);
+    color: var(--color-grey);
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
+    text-align: justify;
+    max-width: 595px;
+}
+
+.app__chef-signature img {
+    width: 250px;
+    margin-top: 3rem;
+}
+
+/* .chef-image{
+    width: 650px;
+    height: auto;
+} */
+
+
+@media screen and (min-width: 2000px) {
+    .app__chef-signature img {
+        width: 370px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .app__chef-signature img {
+        width: 80%;
+    }
+    .app__chef-chefword title{
+        margin-top: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .app__chef-signature img {
+        width: 60%;
+    }
+}
